@@ -57,7 +57,6 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     private lateinit var videoModel: VideoModel
     private var isRelatedVideo: Boolean = false
     private lateinit var adapter: SecondListAdapter
-    private lateinit var listView: RecyclerView
 
     private lateinit var extractor: YouTubeExtractor
 
@@ -137,8 +136,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     }
 
     private fun initRelatedList() {
-        listView = recyclerRelatedListView
-        listView.layoutManager = LinearLayoutManager(this)
+        recyclerRelatedListView.layoutManager = LinearLayoutManager(this)
         adapter = SecondListAdapter(
                 {
                     extractUrl(it.videoId)
@@ -148,13 +146,13 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                     intent.putExtra(VIDEO_MODEL, it)
 
                     if (queryViewModel.showRelatedToVideoId(it.videoId)) {
-                        listView.scrollToPosition(0)
-                        (listView.adapter as? SecondListAdapter)?.submitList(null)
+                        recyclerRelatedListView.scrollToPosition(0)
+                        (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
                     }
                 },
                 { queryViewModel.retry() })
 
-        listView.adapter = adapter
+        recyclerRelatedListView.adapter = adapter
 
         queryViewModel.videoList.observe(this, videoListObserver)
         queryViewModel.networkState.observe(this, networkStateObserver)
@@ -173,8 +171,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                 query?.trim()?.let {
                     if (it.isNotEmpty()) {
                         if (queryViewModel.showSearchQuery(it)) {
-                            listView.scrollToPosition(0)
-                            (listView.adapter as? SecondListAdapter)?.submitList(null)
+                            recyclerRelatedListView.scrollToPosition(0)
+                            (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
                             queryViewModel.backListStack.push(QueryData(it, type = Type.QUERY_STRING))
                             preferences.edit().putString(KEY_QUERY, it).apply()
                         }
@@ -324,8 +322,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                             queryViewModel.showRelatedToVideoId(backList.query)) ||
                     (backList.type == Type.QUERY_STRING &&
                             queryViewModel.showSearchQuery(backList.query))) {
-                listView.scrollToPosition(0)
-                (listView.adapter as? SecondListAdapter)?.submitList(null)
+                recyclerRelatedListView.scrollToPosition(0)
+                (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
             }
         }
     }
