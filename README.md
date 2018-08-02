@@ -20,3 +20,4 @@ Technology Points:
 9. Youtube Android Player API;
 10. JSON 
 11. Kotlin
+12. Multidex
