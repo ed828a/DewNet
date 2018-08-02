@@ -53,7 +53,6 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         ViewModelProviders.of(this, viewModelFactory).get(VideoPlayViewModel::class.java)
     }
 
-    //    private lateinit var queryViewModel: VideoViewModel
     private lateinit var videoModel: VideoModel
     private var isRelatedVideo: Boolean = false
     private lateinit var adapter: SecondListAdapter
@@ -132,6 +131,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         })
         buttonDownload.setOnClickListener {
             queryViewModel.download(videoUrl, textVideoPlayTitle.text.toString())
+            Toast.makeText(this@ExoVideoPlayActivity, "Downloading started...", Toast.LENGTH_SHORT).show()
         }
     }
 
