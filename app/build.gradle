@@ -30,6 +30,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "YOUTUBE_API_KEY", "\"${getProperty("local.properties", "youtubeKey")}\""
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -74,6 +75,7 @@ dependencies {
     implementation deps.support.multidex
     implementation deps.rxjava2
     implementation deps.rx_android
+    implementation deps.slidinguppanel
 
     implementation deps.exoplayer
     implementation deps.extractor

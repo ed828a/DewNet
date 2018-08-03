@@ -1,47 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slidingUpPanel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+    app:umanoDragView="@+id/dragView"
+    app:umanoFadeColor="@android:color/transparent"
+    app:umanoOverlay="true"
+    app:umanoPanelHeight="28dp"
+    app:umanoParallaxOffset="100dp"
+    app:umanoScrollableView="@+id/scrollList"
+    app:umanoShadowHeight="0dp"
     tools:context=".ui.ExoVideoPlayActivity">
 
-    <FrameLayout
-        android:id="@+id/videoFrameLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#000000"
-        app:layout_constraintBottom_toTopOf="@id/guideline"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <com.google.android.exoplayer2.ui.PlayerView
-            android:id="@+id/videoView"
+        <FrameLayout
+            android:id="@+id/videoFrameLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:controller_layout_id="@layout/custom_playback_control"
+                app:show_timeout="2000" />
+
+        </FrameLayout>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="227dp" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline">
+
+            <include layout="@layout/second_list" />
+
+        </FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:background="@android:color/transparent"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:controller_layout_id="@layout/custom_playback_control"
-            app:show_timeout="2000" />
+            android:layout_height="28dp" />
 
-    </FrameLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/thirdList"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@android:color/transparent"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_second_list" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="227dp" />
+    </LinearLayout>
 
-    <FrameLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline">
-
-        <include layout="@layout/second_list" />
-
-    </FrameLayout>
-
-</android.support.constraint.ConstraintLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

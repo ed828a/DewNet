@@ -22,7 +22,7 @@ class SecondListAdapter(val listener: (VideoModel) -> Unit,
                 R.layout.row_second_list -> {
                     val view = LayoutInflater.from(parent.context)
                             .inflate(R.layout.row_second_list, parent, false)
-                    MainListViewHolder(view)
+                    SecondListViewHolder(view)
                 }
                 R.layout.cell_network_state -> NetworkStateItemViewHolder.create(parent, retryCallback)
                 else -> throw IllegalArgumentException("unknown view type $viewType")
@@ -33,7 +33,7 @@ class SecondListAdapter(val listener: (VideoModel) -> Unit,
             R.layout.row_second_list -> {
                 val item = getItem(position)
                 if (item != null) {
-                    (holder as MainListViewHolder).bind(item)
+                    (holder as SecondListViewHolder).bind(item)
                 }
             }
             R.layout.cell_network_state -> (holder as NetworkStateItemViewHolder).bindTo(networkState)
@@ -67,15 +67,12 @@ class SecondListAdapter(val listener: (VideoModel) -> Unit,
         }
     }
 
-    inner class MainListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val textTitle = itemView.textTitle
-        private val textDate = itemView.textDate
-        private val imageThumbnail = itemView.imageThumbnail
+    inner class SecondListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         fun bind(videoModel: VideoModel) {
-            textTitle.text = videoModel.title
-            textDate.text = videoModel.date
-            Glide.with(itemView.context).load(videoModel.thumbnail).into(imageThumbnail)
+            itemView.textTitle.text = videoModel.title
+            itemView.textDate.text = videoModel.date
+            Glide.with(itemView.context).load(videoModel.thumbnail).into(itemView.imageThumbnail)
             itemView.setOnClickListener {
                 listener(videoModel)
             }

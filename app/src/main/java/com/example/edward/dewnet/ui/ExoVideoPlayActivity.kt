@@ -18,11 +18,13 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.commit451.youtubeextractor.YouTubeExtraction
 import com.commit451.youtubeextractor.YouTubeExtractor
 import com.example.edward.dewnet.R
 import com.example.edward.dewnet.adapter.SecondListAdapter
+import com.example.edward.dewnet.adapter.ThirdListAdapter
 import com.example.edward.dewnet.model.*
 import com.example.edward.dewnet.util.*
 import com.example.edward.dewnet.viewmodel.MainViewModelFactory
@@ -63,6 +65,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     private var currentWindow: Int = 0
     private var playWhenReady = true
     private var videoUrl: String = ""
+    private var currentVideotitle = ""
 
     private val preferences = DewNetApp.sharedPreferences
 
@@ -91,15 +94,22 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             extractUrl(videoModel.videoId)
         }
 
+        slidingUpPanel.isEnabled = resources.configuration.orientation != android.content.res.Configuration.ORIENTATION_PORTRAIT
+        initThirdList()
+
         if (resources.configuration.orientation == android.content.res.Configuration.ORIENTATION_PORTRAIT) {
             textVideoPlayTitle?.text = videoModel.title
+            currentVideotitle = videoModel.title
 
             initRelatedList()
             initSearch()
             initDownload()
-            queryViewModel.showRelatedToVideoId(videoModel.videoId)
-            queryViewModel.backListStack.push(QueryData(videoModel.videoId, type = Type.RELATED_VIDEO_ID))
+//            queryViewModel.showRelatedToVideoId(videoModel.videoId)
+//            queryViewModel.backListStack.push(QueryData(videoModel.videoId, type = Type.RELATED_VIDEO_ID))
         }
+
+        queryViewModel.showRelatedToVideoId(videoModel.videoId)
+        queryViewModel.backListStack.push(QueryData(videoModel.videoId, type = Type.RELATED_VIDEO_ID))
     }
 
     private fun extractUrl(videoId: String) {
@@ -128,7 +138,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             }
         })
         buttonDownload.setOnClickListener {
-            queryViewModel.download(videoUrl, textVideoPlayTitle.text.toString())
+            queryViewModel.download(videoUrl, currentVideotitle)
             Toast.makeText(this@ExoVideoPlayActivity, "Downloading started...", Toast.LENGTH_SHORT).show()
         }
     }
@@ -140,6 +150,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                     extractUrl(it.videoId)
                     queryViewModel.backListStack.push(QueryData(it.videoId, type = Type.RELATED_VIDEO_ID))
                     textVideoPlayTitle?.text = it.title
+                    currentVideotitle = it.title
+
                     isRelatedVideo = true
                     intent.putExtra(VIDEO_MODEL, it)
 
@@ -155,6 +167,35 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         queryViewModel.videoList.observe(this, videoListObserver)
         queryViewModel.networkState.observe(this, networkStateObserver)
     }
+
+    private fun initThirdList() {
+        thirdList.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        val thirdAdapter = ThirdListAdapter(
+                {
+                    extractUrl(it.videoId)
+                    queryViewModel.backListStack.push(QueryData(it.videoId, type = Type.RELATED_VIDEO_ID))
+                    currentVideotitle = it.title
+                    isRelatedVideo = true
+                    intent.putExtra(VIDEO_MODEL, it)
+
+                    if (queryViewModel.showRelatedToVideoId(it.videoId)) {
+                        thirdList.scrollToPosition(0)
+                        (thirdList.adapter as? ThirdListAdapter)?.submitList(null)
+                    }
+                },
+                { queryViewModel.retry() })
+
+        thirdList.adapter = thirdAdapter
+
+        queryViewModel.videoList.observe(this,
+                Observer<PagedList<VideoModel>> { videoList ->
+                    thirdAdapter.submitList(videoList) })
+
+        queryViewModel.networkState.observe(this,
+                Observer<NetworkState?> { networkState ->
+                    thirdAdapter.setNetworkState(networkState) })
+    }
+
 
     private fun initSearch() {
         buttonSearch.setOnSearchClickListener {
@@ -207,11 +248,11 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             return
         }
 
-        if (videoUrl.isNotEmpty()){
+        if (videoUrl.isNotEmpty()) {
             queryViewModel.playListStack.push(VideoPlayedModel(
                     videoUrl,
                     playbackPosition,
-                    textVideoPlayTitle.text.toString()))
+                    currentVideotitle))
         }
 
         videoUrl = result.videoStreams.first().url
@@ -326,13 +367,15 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         }
     }
 
-    fun playPreviousVideo(view: View){
+    fun playPreviousVideo(view: View) {
 
-        val playedVideo =queryViewModel.playListStack.pop()
-        if (playedVideo != null){
+        val playedVideo = queryViewModel.playListStack.pop()
+        if (playedVideo != null) {
             videoUrl = playedVideo.videoUrl
             playbackPosition = playedVideo.position
-            textVideoPlayTitle.text = playedVideo.title
+            if (findViewById<TextView>(R.id.textVideoPlayTitle) != null) {
+                textVideoPlayTitle.text = playedVideo.title
+            }
 
             Log.d("ExoMediaActivity", "videoUrl: $videoUrl")
             if (player != null) {

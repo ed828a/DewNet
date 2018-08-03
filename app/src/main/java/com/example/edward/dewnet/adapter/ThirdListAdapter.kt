@@ -1,7 +1,6 @@
 package com.example.edward.dewnet.adapter
 
 import android.arch.paging.PagedListAdapter
-import android.support.v7.util.DiffUtil
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -10,40 +9,34 @@ import com.bumptech.glide.Glide
 import com.example.edward.dewnet.R
 import com.example.edward.dewnet.model.NetworkState
 import com.example.edward.dewnet.model.VideoModel
-import kotlinx.android.synthetic.main.cell_video.view.*
+import kotlinx.android.synthetic.main.cell_video_third_list.view.*
 
 /**
- * Created by Edward on 7/31/2018.
+ *   Created by $USER_NAME on 8/3/2018.
  */
-
-/**
- * @param listener: video play click listener
- * @param retryCallback: retry button click listener
- */
-class MainListAdapter(
-        val listener: (VideoModel) -> Unit,
-        val retryCallback: () -> Unit
-) : PagedListAdapter<VideoModel, RecyclerView.ViewHolder>(COMPARATOR) {
+class ThirdListAdapter (val listener: (VideoModel) -> Unit,
+                        val retryCallback: () -> Unit
+) : PagedListAdapter<VideoModel, RecyclerView.ViewHolder>(MainListAdapter.COMPARATOR) {
 
     private var networkState: NetworkState? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
             when (viewType) {
-                R.layout.cell_video -> {
+                R.layout.row_second_list -> {
                     val view = LayoutInflater.from(parent.context)
-                            .inflate(R.layout.cell_video, parent, false)
-                    MainListViewHolder(view)
+                            .inflate(R.layout.cell_video_third_list, parent, false)
+                    ThirdListViewHolder(view)
                 }
                 R.layout.cell_network_state -> NetworkStateItemViewHolder.create(parent, retryCallback)
-                else -> throw IllegalArgumentException("unknown view type $viewType") as Throwable
+                else -> throw IllegalArgumentException("unknown view type $viewType")
             }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (getItemViewType(position)) {
-            R.layout.cell_video -> {
+            R.layout.row_second_list -> {
                 val item = getItem(position)
                 if (item != null) {
-                    (holder as MainListViewHolder).bind(item)
+                    (holder as ThirdListViewHolder).bind(item)
                 }
             }
             R.layout.cell_network_state -> (holder as NetworkStateItemViewHolder).bindTo(networkState)
@@ -56,7 +49,7 @@ class MainListAdapter(
             if (hasExtraCell() && position == itemCount - 1) {
                 R.layout.cell_network_state
             } else {
-                R.layout.cell_video
+                R.layout.row_second_list
             }
 
     private fun hasExtraCell() = networkState != null && networkState != NetworkState.LOADED
@@ -77,33 +70,14 @@ class MainListAdapter(
         }
     }
 
-    inner class MainListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val textTitle = itemView.textViewTitle
-        private val textDate = itemView.textViewDate
-        private val imageThumbnail = itemView.imageViewThumb
+    inner class ThirdListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         fun bind(videoModel: VideoModel) {
-            textTitle.text = videoModel.title
-            textDate.text = videoModel.date
-            Glide.with(itemView.context).load(videoModel.thumbnail).into(imageThumbnail)
+            itemView.thirdTextTitle.text = videoModel.title
+            Glide.with(itemView.context).load(videoModel.thumbnail).into(itemView.thirdImageThumb)
             itemView.setOnClickListener {
                 listener(videoModel)
             }
         }
-
     }
-
-    companion object {
-        val COMPARATOR = object : DiffUtil.ItemCallback<VideoModel>() {
-            override fun areItemsTheSame(oldItem: VideoModel, newItem: VideoModel): Boolean {
-                return oldItem == newItem
-            }
-
-            override fun areContentsTheSame(oldItem: VideoModel, newItem: VideoModel): Boolean {
-                return oldItem.videoId == newItem.videoId
-            }
-
-        }
-    }
-
 }
