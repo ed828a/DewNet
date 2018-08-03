@@ -46,8 +46,7 @@ open class MainViewModel(protected val repository: DewRepository) : ViewModel(){
             }
 
     fun retry(){
-        val listing = searchResult?.value
-        listing?.retry?.invoke()
+        searchResult?.value?.retry?.invoke()
     }
 
     fun currentQuery(): String? = queryString.value
