@@ -94,8 +94,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             extractUrl(videoModel.videoId)
         }
 
-        slidingUpPanel.isEnabled = resources.configuration.orientation != android.content.res.Configuration.ORIENTATION_PORTRAIT
-        initThirdList()
+//        slidingUpPanel.isEnabled = resources.configuration.orientation != android.content.res.Configuration.ORIENTATION_PORTRAIT
+//        initThirdList()
 
         if (resources.configuration.orientation == android.content.res.Configuration.ORIENTATION_PORTRAIT) {
             textVideoPlayTitle?.text = videoModel.title
@@ -106,6 +106,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             initDownload()
 //            queryViewModel.showRelatedToVideoId(videoModel.videoId)
 //            queryViewModel.backListStack.push(QueryData(videoModel.videoId, type = Type.RELATED_VIDEO_ID))
+        } else {
+            initThirdList()
         }
 
         queryViewModel.showRelatedToVideoId(videoModel.videoId)
