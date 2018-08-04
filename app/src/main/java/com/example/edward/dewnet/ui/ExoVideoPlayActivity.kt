@@ -66,7 +66,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     private var currentWindow: Int = 0
     private var playWhenReady = true
     private var videoUrl: String = ""
-    private var currentVideotitle = ""
+    private var currentVideoTitle = ""
 
     private val preferences = DewNetApp.sharedPreferences
 
@@ -95,18 +95,14 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             extractUrl(videoModel.videoId)
         }
 
-//        slidingUpPanel.isEnabled = resources.configuration.orientation != android.content.res.Configuration.ORIENTATION_PORTRAIT
-//        initThirdList()
-
         if (resources.configuration.orientation == android.content.res.Configuration.ORIENTATION_PORTRAIT) {
             textVideoPlayTitle?.text = videoModel.title
-            currentVideotitle = videoModel.title
+            currentVideoTitle = videoModel.title
+            Log.d("ExoVideoPlayActivity", "onCreate(): currentVideoTitle = $currentVideoTitle")
 
             initRelatedList()
             initSearch()
             initDownload()
-//            queryViewModel.showRelatedToVideoId(videoModel.videoId)
-//            queryViewModel.backListStack.push(QueryData(videoModel.videoId, type = Type.RELATED_VIDEO_ID))
         } else {
             initThirdList()
         }
@@ -141,7 +137,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             }
         })
         buttonDownload.setOnClickListener {
-            queryViewModel.download(videoUrl, currentVideotitle)
+            queryViewModel.download(videoUrl, currentVideoTitle)
             Toast.makeText(this@ExoVideoPlayActivity, "Downloading started...", Toast.LENGTH_SHORT).show()
         }
     }
@@ -153,15 +149,13 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                     extractUrl(it.videoId)
                     queryViewModel.backListStack.push(QueryData(it.videoId, type = Type.RELATED_VIDEO_ID))
                     textVideoPlayTitle?.text = it.title
-                    currentVideotitle = it.title
+                    currentVideoTitle = it.title
+                    Log.d("ExoVideoPlayActivity", "initRelatedList(): currentVideoTitle = $currentVideoTitle")
 
                     isRelatedVideo = true
                     intent.putExtra(VIDEO_MODEL, it)
 
-                    if (queryViewModel.showRelatedToVideoId(it.videoId)) {
-                        recyclerRelatedListView.scrollToPosition(0)
-                        (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
-                    }
+                    queryViewModel.showRelatedToVideoId(it.videoId)
                 },
                 { queryViewModel.retry() })
 
@@ -177,14 +171,13 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                 {
                     extractUrl(it.videoId)
                     queryViewModel.backListStack.push(QueryData(it.videoId, type = Type.RELATED_VIDEO_ID))
-                    currentVideotitle = it.title
+                    currentVideoTitle = it.title
+                    Log.d("ExoVideoPlayActivity", "initThirdList(): currentVideoTitle = $currentVideoTitle")
+
                     isRelatedVideo = true
                     intent.putExtra(VIDEO_MODEL, it)
 
-                    if (queryViewModel.showRelatedToVideoId(it.videoId)) {
-                        thirdList.scrollToPosition(0)
-                        (thirdList.adapter as? ThirdListAdapter)?.submitList(null)
-                    }
+                    queryViewModel.showRelatedToVideoId(it.videoId)
                 },
                 { queryViewModel.retry() })
 
@@ -193,7 +186,11 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         queryViewModel.videoList.observe(this,
                 Observer<PagedList<VideoModel>> { videoList ->
                     if (videoList != null && videoList.isNotEmpty()) {
+                        thirdList.scrollToPosition(0)
+                        thirdAdapter.submitList(null)
                         thirdAdapter.submitList(videoList)
+                    } else {
+                        queryViewModel.retry()
                     }
                 })
 
@@ -216,8 +213,6 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                 query?.trim()?.let {
                     if (it.isNotEmpty()) {
                         if (queryViewModel.showSearchQuery(it)) {
-                            recyclerRelatedListView.scrollToPosition(0)
-                            (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
                             queryViewModel.backListStack.push(QueryData(it, type = Type.QUERY_STRING))
                             preferences.edit().putString(KEY_QUERY, it).apply()
                         }
@@ -254,13 +249,6 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             return
         }
 
-        if (videoUrl.isNotEmpty()) {
-            queryViewModel.playListStack.push(VideoPlayedModel(
-                    videoUrl,
-                    playbackPosition,
-                    currentVideotitle))
-        }
-
         videoUrl = result.videoStreams.first().url
         playbackPosition = 0  // new video start
         Log.d("ExoMediaActivity", "videoUrl: $videoUrl")
@@ -268,6 +256,12 @@ class ExoVideoPlayActivity : AppCompatActivity() {
             releasePlayer()
         }
         initializePlayer(this, videoUrl)
+
+        queryViewModel.playListStack.push(VideoPlayedModel(
+                videoUrl,
+                playbackPosition,
+                currentVideoTitle))
+        Log.d("ExoVideoPlayActivity", "bindVideoToPlayer(): currentVideoTitle = $currentVideoTitle")
     }
 
     private fun errorHandler(t: Throwable) {
@@ -346,6 +340,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     private val videoListObserver =
             Observer<PagedList<VideoModel>> { videoList ->
                 if (videoList != null && videoList.isNotEmpty()){
+                    recyclerRelatedListView.scrollToPosition(0)
+                    adapter.submitList(null)
                     adapter.submitList(videoList)
                 }
             }
