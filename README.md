@@ -22,4 +22,5 @@ Technology Points:
 11. Kotlin
 12. Multidex
 
-
+## **Demo**
+![bottom-drawer](https://github.com/ed828a/DewNet/tree/slidinguppanel/app/src/main/res/raw/dewnet.gif)
