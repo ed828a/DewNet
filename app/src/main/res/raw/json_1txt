@@ -1,0 +1,1662 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/CZrwngFuKDbjdDKRYNqkvp5Rwus\"",
+ "nextPageToken": "CDIQAA",
+ "regionCode": "AU",
+ "pageInfo": {
+  "totalResults": 1000000,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/jJEi_FTGTKAJVfAF34cNy1-tDsQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "zNDYbCtGJIM"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T04:24:52.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Donald Trump Calls Cohen A Liar. Cohen's Reportedly Furious At Donald Trump. | The 11th Hour | MSNBC",
+    "description": "There's no love lost between Trump & his fmr. lawyer Michael Cohen one day after reports say Cohen's ready to tell Mueller Trump had prior knowledge of that ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/zNDYbCtGJIM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/zNDYbCtGJIM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/zNDYbCtGJIM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/NeBYbKdV5X7xuaf0HF8RubhfeWE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "JFey1EnA7go"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T13:21:08.000Z",
+    "channelId": "UCK7IIV6Q2junGSdYK3BmZMg",
+    "title": "Brawl on Hollywood Walk of Fame on Donald Trump's Star",
+    "description": "There were intense protests Thursday night on the Hollywood Walk of Fame ... specifically next to Donald Trump's star. SUBSCRIBE: http://po.st/TMZSubscribe ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/JFey1EnA7go/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/JFey1EnA7go/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/JFey1EnA7go/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TMZ",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/GZCF4BTtcl6OSfXJfgM1wCZ4iGU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "BayHuo26I74"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T03:09:36.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Media downplay Trump administration's economic successes",
+    "description": "Kevin Hassett, head of the White House Council of Economic Advisers, shares insight on 'The Ingraham Angle' after 4.1 percent GDP growth.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BayHuo26I74/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BayHuo26I74/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BayHuo26I74/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/71Z8-3wvjnOOgknoTl-ocLfBwZg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "PjI_wCEsKCw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T03:12:28.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Don Lemon: Trump lies coming in fast and furious",
+    "description": "CNN's Don Lemon breaks down President Trump's lies past and present and says Trump's lies are coming in fast and furious.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PjI_wCEsKCw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PjI_wCEsKCw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PjI_wCEsKCw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ECHECZD2PoAXgbuaxGHdFZsDET8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "AyaZ0Ry6VzI"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-29T01:06:23.000Z",
+    "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+    "title": "Trump's legal team firing warning shot to his former lawyer",
+    "description": "Rudy Giuliani said the legal team has hired audio experts to analyze secret recordings Cohen made of Trump 2 months before the election.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/AyaZ0Ry6VzI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/AyaZ0Ry6VzI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/AyaZ0Ry6VzI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "ABC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ZsrF6OC4fFwh0Z8TOPH8-INEBL4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "iQGVM02jd9Q"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T01:14:26.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Anderson Cooper: Trump's defenders can't keep their story straight",
+    "description": "CNN's Anderson Cooper recounts the many times President Trump's defenders said he did not have any knowledge of the meeting between Donald Trump Jr.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/iQGVM02jd9Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/iQGVM02jd9Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/iQGVM02jd9Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/00KEewV0HNi_-atKEryrQvixOZc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "e--7Rfsvo1Q"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T15:35:53.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "President Trump fires back at latest Cohen claim",
+    "description": "Trump tweet: I did not know of 2016 Trump Tower meeting with Donald Trump Jr. Rick Leventhal has the story.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/e--7Rfsvo1Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/e--7Rfsvo1Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/e--7Rfsvo1Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/qpAp5QNsPwQDXaVUiO3L6QxsfGM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "U1tvd6_hHgU"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T23:27:17.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Whatever happened to Trump's military parade?",
+    "description": "The date is set, but the Washington parade may not be what President Trump had in mind; national security correspondent Jennifer Griffin reports. FOX News ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/U1tvd6_hHgU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/U1tvd6_hHgU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/U1tvd6_hHgU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/5xjVVS2GdugzdULy1J_j9azaIVY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "PFwTqZK9-cs"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T17:33:31.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump disputes Cohen claim he knew of Trump Tower meeting",
+    "description": "President Donald Trump denied his former personal attorney Michael Cohen's claim that he knew in advance about a highly controversial 2016 Trump Tower ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PFwTqZK9-cs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PFwTqZK9-cs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PFwTqZK9-cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/6neZGRB41siLA4X0QWpc5CnAnf0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "J77SZTzg8T0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T14:09:47.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "President Trump delivers remarks on the economy",
+    "description": "President Trump delivers remarks on the economy. FOX News Channel (FNC) is a 24-hour all-encompassing news service dedicated to delivering breaking ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/J77SZTzg8T0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/J77SZTzg8T0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/J77SZTzg8T0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/VoyTUZr0QMxilfZ89J9EdO69TYw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "F7BEgVCfU1Q"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T04:01:16.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "President Donald Trump/Michael Cohen Face Off: What Does He Know? | The Last Word | MSNBC",
+    "description": "Donald Trump denied Michael Cohen's reported claim that Trump knew in advance of the Trump Tower meeting with Russians, as Trump allies plot to \"bury\" ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/F7BEgVCfU1Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/F7BEgVCfU1Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/F7BEgVCfU1Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/4aHbc5S_Abm3v2esx_zpEL4GO-Y\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "89TshGJsCsw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T15:58:10.000Z",
+    "channelId": "UCw3fku0sH3qA3c3pZeJwdAw",
+    "title": "European commission president dodges Trump's hand after meeting - Daily Mail",
+    "description": "President Donald Trump went in for a hand hold after a tense day of talks with European Commission chief Jean-Claude Juncker only for the EU head to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/89TshGJsCsw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/89TshGJsCsw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/89TshGJsCsw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Daily Mail",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/MgGwEKuGuZIj9nxbASkXaglr-sk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "_G9eny1vcvg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T15:24:39.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Putin: 'Ready' to go to Washington, invites Trump to Moscow",
+    "description": "Russian President Vladimir Putin said he is ready to go to Washington and has invited US President Donald Trump to Moscow, but there \"has to be necessary ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/_G9eny1vcvg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/_G9eny1vcvg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/_G9eny1vcvg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/6u0Wu0vgWdKardxbdLL7osUdQ0c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "n4g3FoSJ-6U"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T20:46:19.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Jake Tapper details lies told about Trump Tower meeting",
+    "description": "Michael Cohen, President Donald Trump's former personal attorney, claims that then-candidate Trump knew in advance about the June 2016 meeting in Trump ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/n4g3FoSJ-6U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/n4g3FoSJ-6U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/n4g3FoSJ-6U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/rkbuxWEshENBqrJOyoNK84deZAA\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "5bresZLoaSU"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T02:13:10.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Bannon: Midterm is a referendum on the Trump presidency",
+    "description": "Former White House strategist Steve Bannon says the 2018 midterms are essentially President Trump's first re-election on 'Hannity.' FOX News Channel (FNC) ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/5bresZLoaSU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/5bresZLoaSU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/5bresZLoaSU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/aoxOjAujuirGbn5PC8C5J2PDkBg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "2xxlLi6iE44"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T18:19:47.000Z",
+    "channelId": "UC9k-yiEpRHMNVOnOi_aQK8w",
+    "title": "Donald Trump's Hollywood Walk of Fame Star Destroyed With Pickaxe",
+    "description": "Donald Trump's Hollywood Walk of Fame star has been smashed to bits, seemingly with a pickaxe left at the scene. \"I just seen a guy going to town on I guess ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2xxlLi6iE44/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2xxlLi6iE44/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2xxlLi6iE44/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Inside Edition",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/EKV1xHJJiuMidiG6-WVravddPeY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "nwwYdOunJGA"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T05:52:04.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Donald Trump Before New Cohen Bombshell: Media Waiting For A Mistake From Me | The 11th Hour | MSNBC",
+    "description": "Trump again took on the press hours before NBC News confirmed that his fmr. lawyer Michael Cohen is prepared to assert that Trump had prior knowledge of ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/nwwYdOunJGA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/nwwYdOunJGA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/nwwYdOunJGA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/wdST-ikabv7wCLNdb4NqpuL3PxY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "DDmQtZfpUsw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T07:30:01.000Z",
+    "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "title": "Trump's Star Destroyed",
+    "description": "Donald Trump's star on the Hollywood Walk of Fame was vandalized by a man with a pickaxe. Politics aside, you hate to see the natural beauty of Hollywood ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/DDmQtZfpUsw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/DDmQtZfpUsw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/DDmQtZfpUsw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Jimmy Kimmel Live",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Iaaeu3E4O_exjmTlsS6aemQzPqw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "PNfrRXlv5mI"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T00:28:44.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Anderson Cooper: Trump's silence is deafening",
+    "description": "CNN's Anderson Cooper says longtime Trump Organization CFO Allen Weisselberg being subpoenaed brings us even closer to President Donald Trump's inner ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PNfrRXlv5mI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PNfrRXlv5mI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PNfrRXlv5mI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/c0y-TBPvhqdm_qxE3VqUecAmUqY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "9KrPh10-5yw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T00:54:14.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Trump Denies Bombshell Claim That He Approved Trump Tower Meeting | The Beat With Ari Melber | MSNBC",
+    "description": "Trump denies the bombshell claim by Michael Cohen, that he knew about the Trump Tower meeting with Russia in advance. Conservative opinion writer ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/9KrPh10-5yw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/9KrPh10-5yw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/9KrPh10-5yw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/1iEZVKlX-X2yC0WnEpcd6pGfqss\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "DhoV78Ahufw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T14:41:06.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump touts fastest U.S. economic growth since 2014",
+    "description": "The US economy roared into high gear in the spring, growing at the fastest pace in almost four years. Second-quarter economic growth came in at an annual ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/DhoV78Ahufw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/DhoV78Ahufw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/DhoV78Ahufw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/lEUwFIr7-hbf3mQbSjsTe-UDHNE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "j0WYY8ltNH4"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T08:35:01.000Z",
+    "channelId": "UCJ0uqCI0Vqr2Rrt1HseGirg",
+    "title": "Yes, We Have More 100% Very Real Trump-Cohen Tapes",
+    "description": "After Michael Cohen's legal defense shared a copy of a recorded conversation between Cohen and Donald Trump, discussing hush money payments to Karen ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/j0WYY8ltNH4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/j0WYY8ltNH4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/j0WYY8ltNH4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "The Late Late Show with James Corden",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/RjptNp7wa4OS-BDa8XgMFR_sIbg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "fZBSFhnAyxg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T18:10:44.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "CFO Of President Trump Org Reportedly Being Called To Testify In Cohen Case | Velshi & Ruhle | MSNBC",
+    "description": "The CFO of the Trump Organization is reportedly being called to testify in Michael Cohen's case. Ali Velshi and tax expert David Cay Johnston tell you all about ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/fZBSFhnAyxg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/fZBSFhnAyxg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/fZBSFhnAyxg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/3PitLXBXug-md5EDiW7hWDmf87c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "4Eh8w0i1WJA"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T05:16:42.000Z",
+    "channelId": "UCJ0uqCI0Vqr2Rrt1HseGirg",
+    "title": "We Have the Trump-Cohen Tapes You Haven't Heard Yet",
+    "description": "James Corden looks at the headlines, notably the release of a tape recording between Donald Trump and his attorney Michael Cohen discussing hush ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4Eh8w0i1WJA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4Eh8w0i1WJA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4Eh8w0i1WJA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "The Late Late Show with James Corden",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/TlYGtPaMO847aBMGCJNe05QRzzg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "AVPgdGvBDKw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-29T01:37:53.000Z",
+    "channelId": "UCjDsbbzHgTrGc4Ff26TJtsA",
+    "title": "Lindsay Lohan Parties With Tiffany Trump in Greece",
+    "description": "The 32-year-old actress parties with President Trumps's daughter on the Greek island of Mykonos. Get details on their friendship, who else they hang with and ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/AVPgdGvBDKw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/AVPgdGvBDKw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/AVPgdGvBDKw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "E! News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/1p5Dlx_bi86Op0aIinKAPkeD_kU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "hGqTLMWcjQs"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T00:45:30.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump caught on tape: Get me a Coke, please",
+    "description": "President Trump was caught on tape ordering a Coke. CNN's Jeanne Moos reports on why that part is so popular.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hGqTLMWcjQs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hGqTLMWcjQs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hGqTLMWcjQs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/HTNow2wKEkT2K8AHYf-N4yw-9vQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "C3sqLyUs8yo"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T00:40:52.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Trump Co-Author: He’s Having A 'Catastrophic Internal Experience' | The Beat With Ari Melber | MSNBC",
+    "description": "Trump's “Art of the Deal” co-author, Tony Schwartz, joins Ari Melber in a new “Beat” segment called “State of Mind”, to discuss the mounting pressure on Trump ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/C3sqLyUs8yo/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/C3sqLyUs8yo/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/C3sqLyUs8yo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/euEIE_BQgc6eardhC1yvSC3iefE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "F98cXyCuQMs"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T07:30:01.000Z",
+    "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "title": "Trump/Cohen Tape Sounds Like Mob Movie",
+    "description": "On CNN last night they released an audio tape of Donald Trump talking to his former lawyer Michael Cohen. The tape was recorded covertly by Cohen - two ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/F98cXyCuQMs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/F98cXyCuQMs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/F98cXyCuQMs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Jimmy Kimmel Live",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/l_k1C1NEBOrUq3eDkz4I7LQ5JLc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Syzo-6dMoso"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T21:16:05.000Z",
+    "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+    "title": "President Donald Trump Delivers Remarks To Steel Workers In Granite City, IL | NBC News",
+    "description": "President Donald Trump delivers remarks at a recently re-opened steel mill following the announcement of increased tariffs on imported steel. » Subscribe to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Syzo-6dMoso/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Syzo-6dMoso/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Syzo-6dMoso/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "NBC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/F8exuoU3JLlUoJyJLfibbmMwZ9Q\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "XgYNz9DQbwA"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T13:04:24.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump: What kind of lawyer tapes a client?",
+    "description": "President Trump slams Michael Cohen on Twitter after CNN exclusively obtained the secret audio tapes of Trump and his former attorney.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/XgYNz9DQbwA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/XgYNz9DQbwA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/XgYNz9DQbwA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Daak2YLtiHP7SBYwoiCCjMz3INI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Lr34YzQW1u8"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T05:09:48.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Michael Cohen Tape Scandal Consumes President Donald Trump's White House | The 11th Hour | MSNBC",
+    "description": "With Trump's legal team on defense after Michael Cohen's recording with Trump was released, Trump's White House is reportedly worried about what Cohen ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Lr34YzQW1u8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Lr34YzQW1u8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Lr34YzQW1u8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/1IremO8NQjMrRU09fYmM0kYqY44\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "LwuHeaCFaXo"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T14:40:13.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Rivera: Cohen presents significant legal threat to Trump",
+    "description": "Cohen claims Trump approved the Trump Tower meeting. Fox News roaming correspondent-at-large gives his take. FOX News Channel (FNC) is a 24-hour ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/LwuHeaCFaXo/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/LwuHeaCFaXo/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/LwuHeaCFaXo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/UkkbTVm7_TWi32Bk4iBZr4wfNcM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "gdkqXEMvY9o"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T15:06:50.000Z",
+    "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+    "title": "Trump: On track to hit highest annual growth rate in over 13 years",
+    "description": "President Donald Trump discusses the second-quarter GDP and the state of the U.S. economy.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gdkqXEMvY9o/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gdkqXEMvY9o/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gdkqXEMvY9o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox Business",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Qi1k_r2fGuzqTk2L7aPRbbkGowE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "eYBXk95asNM"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T00:21:41.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Ron Reagan On President Donald Trump: It’s Going To Get Worse | Hardball | MSNBC",
+    "description": "Trump's behavior would earn any other President universal condemnation. However, Trump's Republican allies continue to stand by their man. » Subscribe to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/eYBXk95asNM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/eYBXk95asNM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/eYBXk95asNM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/w5HFddXsKP7C_R1skuasTnIsTAs\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "7StCa0B4ZSY"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T13:44:57.000Z",
+    "channelId": "UCpwvZwUam-URkxB7g4USKpg",
+    "title": "'I invited Trump to Moscow' - Putin",
+    "description": "Russian President Vladimir Putin held a press conference at the BRICS Summit in South Africa. READ MORE: https://on.rt.com/9b7l Check out http://rt.com RT ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7StCa0B4ZSY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7StCa0B4ZSY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7StCa0B4ZSY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "RT",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/UN4jQT2cTHrcUOrR_2H1XbB8quc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "VClJVqLdqIM"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T06:56:28.000Z",
+    "channelId": "UC3lleI2WsaIiW8IzkJ0kIYA",
+    "title": "Handelsakkoord: zo nam Juncker Trump in de maling - RTL Z NIEUWS",
+    "description": "Er is voorlopig vrede getekend tussen Europa en de Verenigde Staten. President Trump dacht een goede deal gemaakt te hebben. Maar misschien is Juncker ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/VClJVqLdqIM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/VClJVqLdqIM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/VClJVqLdqIM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "RTL Z",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/nOtMDdAYj_pqKZatbMf8muPxGKo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "89lTZggpUNs"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T01:36:31.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Michael Cohen claims Trump knew of Trump Tower meeting",
+    "description": "President Donald Trump's former attorney Michael Cohen claims Trump knew Russians were offering dirt on Clinton and approved going ahead with the 2016 ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/89lTZggpUNs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/89lTZggpUNs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/89lTZggpUNs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/6RcrOonMkpROawDODZZarICmfFU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "X-p7Cq3Jy18"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T21:48:07.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump highlights positive impact of tariffs on trade",
+    "description": "President Trump visits Iowa and Illinois to address trade and economy; reaction and analysis on 'The Five.' FOX News Channel (FNC) is a 24-hour ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/X-p7Cq3Jy18/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/X-p7Cq3Jy18/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/X-p7Cq3Jy18/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ozWg48DXeaYjJmgYfYUCdOCM5Yg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "8dW9635avHs"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T23:07:21.000Z",
+    "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+    "title": "Trump: EU will buy more US soybeans",
+    "description": "President Donald Trump discusses how the U.S. and European Union will work together to reduce trade barriers.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8dW9635avHs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8dW9635avHs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8dW9635avHs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox Business",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/eZ9Xk6-pKyK5z4ze-8tTCGcLXjQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "w9bwY3tjnbw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T03:53:31.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "The Court Ruling That Could Lead To President Donald Trump's Tax Returns | The Last Word | MSNBC",
+    "description": "President Trump was dealt a major legal setback after a federal judge allows an emolument lawsuit against him to proceed. David Cay Johnston explains what ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/w9bwY3tjnbw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/w9bwY3tjnbw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/w9bwY3tjnbw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/2QEkTf37_03olsiJIgx6_lwP9bs\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "IlSwAHrr34A"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T12:43:18.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Camerota: White House is changing reality of Trump-Putin meeting",
+    "description": "CNN's Alisyn Camerota compares the White House's omission of Russian President Vladimir Putin's verbal support for President Trump in the 2016 election ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/IlSwAHrr34A/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/IlSwAHrr34A/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/IlSwAHrr34A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/RrKz7YBlNe6Ps_ynoZzFDQrLd00\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "F3J8LWpdvTg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T20:38:33.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "WSJ: Top Trump Org. official subpoenaed",
+    "description": "Allen Weisselberg, a top Trump Organization official and the company's longtime chief financial officer, has been subpoenaed to testify as part of the ongoing ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/F3J8LWpdvTg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/F3J8LWpdvTg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/F3J8LWpdvTg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/AW_DyxKzrfx1Uu09kTTqp_5kvCg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "oAy5nghcOxY"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T01:07:11.000Z",
+    "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+    "title": "Trump is bringing an end to Iran’s aggression in Middle East: Gen. Keane",
+    "description": "Gen. Jack Keane (Ret.) on how U.S. Trade Representative Robert Lighthizer defended the Trump administration's use of national security as the premise for ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/oAy5nghcOxY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/oAy5nghcOxY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/oAy5nghcOxY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox Business",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/kBh0yKBWIRU-LuS1vQSK4iA5XDs\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "74TFS8r_SMI"
+   },
+   "snippet": {
+    "publishedAt": "2011-03-04T06:03:23.000Z",
+    "channelId": "UC3SEvBYhullC-aaEmbEQflg",
+    "title": "Mac Miller - Donald Trump",
+    "description": "GO:OD AM Album Out Now Download it here: https://smarturl.it/GOODAM Rex Arrow Films, Rostrum Records & TreeJTV Present... Mac Miller Donald Trump ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/74TFS8r_SMI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/74TFS8r_SMI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/74TFS8r_SMI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TreeJTV",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/QS8Avxmn97bM4m7EmARdncCWjm0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Zq_F5luqkos"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T14:34:02.000Z",
+    "channelId": "UCqC9wT9TI5Va0yWG77-q3IA",
+    "title": "Trump Touts Surging US Economy",
+    "description": "President Donald Trump celebrates a surging US economy in a speech delivered on the White House's South Lawn. Trump was responding to new data that ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Zq_F5luqkos/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Zq_F5luqkos/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Zq_F5luqkos/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "seattletimesdotcom",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/hzTLIT-KJTHxGgH4UWGEl1RXSz8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "u2KXAHKiPXQ"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T02:05:47.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Audio expert examines Trump-Cohen tape",
+    "description": "Ed Primeau, an audio forensic expert, discusses his thoughts about the Trump-Cohen tape with CNN's Chris Cuomo.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u2KXAHKiPXQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u2KXAHKiPXQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u2KXAHKiPXQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/spr0v-2sWMePGZvwtuhVl-1VS00\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "BzXrguX-hKU"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T20:33:26.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump makes announcement in White House Rose Garden",
+    "description": "President Trump holds a news conference with European Commission president Jean-Claude Juncker at the White House. FOX News Channel (FNC) is a ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BzXrguX-hKU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BzXrguX-hKU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BzXrguX-hKU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/kHGalu1JsHcfndpH9kfBZxaUi20\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "EBB9TcOGqTg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T01:59:32.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "CNN obtains secret Trump-Cohen audio recording",
+    "description": "Presidential candidate Donald Trump is heard on tape discussing with attorney Michael Cohen how they would buy the rights to a Playboy model's story about ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/EBB9TcOGqTg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/EBB9TcOGqTg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/EBB9TcOGqTg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/JoZ16606GJvLv3zZlYmDBMAMiIE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "nH0D8SKDWMw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T03:45:41.000Z",
+    "channelId": "UC8-Th83bH_thdKZDJCrn88g",
+    "title": "Trump News Network: Twitter War with Iran",
+    "description": "To combat the fake news media, Trump creates his very own news network to discuss his caps lock Twitter war with Iran. Subscribe NOW to The Tonight Show ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/nH0D8SKDWMw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/nH0D8SKDWMw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/nH0D8SKDWMw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "The Tonight Show Starring Jimmy Fallon",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/9kyHfo4sSUyDFTrdylGr5OCrV8Y\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "h3nZHrEuGeQ"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T14:49:31.000Z",
+    "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+    "title": "Trump: Global threat or new world order? | Head to Head",
+    "description": "In this episode of Head to Head, Mehdi Hasan challenges former Trump campaign national security director, JD Gordon, on allegations of collusion with Russia, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/h3nZHrEuGeQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/h3nZHrEuGeQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/h3nZHrEuGeQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Al Jazeera English",
+    "liveBroadcastContent": "none"
+   }
+  }
+ ]
+}

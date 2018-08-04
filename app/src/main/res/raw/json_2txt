@@ -1,0 +1,1663 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/9eUYmuGJWwvRwwOtTFwRPeDRShc\"",
+ "nextPageToken": "CGQQAA",
+ "prevPageToken": "CDIQAQ",
+ "regionCode": "AU",
+ "pageInfo": {
+  "totalResults": 1000000,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/PgUy7RqrCju4jNGp8szCuDLjbyM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "mPVezQaViNg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T13:25:03.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "President Trump fires back on leaked audio tapes",
+    "description": "Giuliani denies Trump-Cohen recording proves Trump knew about Playboy model payoff. Kevin Corke has the reaction from the White House. FOX News ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/mPVezQaViNg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/mPVezQaViNg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/mPVezQaViNg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/2JD1PTXzc4UcXepd_CDzz51Fvps\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "D29CrhgPTA0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-23T08:37:02.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump tweets all-caps threat to Iran",
+    "description": "President Donald Trump has launched a furious all-caps Twitter rebuke of Iran declaring \"you will suffer consequences the likes of which few have ever suffered ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/D29CrhgPTA0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/D29CrhgPTA0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/D29CrhgPTA0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/p5w8niAe7JvRu5sy-H8ie7ciW0k\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "x4YY5b8nILg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-18T17:11:25.000Z",
+    "channelId": "UCUsm-fannqOY02PNN67C0KA",
+    "title": "Estallan reacciones contra Trump tras reunión con Putin - Foro Global",
+    "description": "La reunión de Donald Trump con Vladimir Putin despertó reacciones y críticas sin precedente en la gestión actual y quizás en la historia de la Unión Americana.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/x4YY5b8nILg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/x4YY5b8nILg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/x4YY5b8nILg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Noticieros Televisa",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/DhyJAHx0osAYABsvxFujC7d-eU0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cwxqOoIyWm0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T17:53:20.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Watch Donald Trump and Vladimir Putin's full press conference",
+    "description": "President Donald Trump and Russian President Vladimir Putin answer questions from reporters during their joint press conference in Helsinki, Finland, following ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cwxqOoIyWm0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cwxqOoIyWm0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cwxqOoIyWm0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/KeqkpDYO4iY1qDw_gYm2LipTeRw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "VKmhAlrIAoE"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T13:31:09.000Z",
+    "channelId": "UCZaT_X_mc0BI-djXOlfhqWQ",
+    "title": "Trump's Putin Press Conference Just Made Republicans' Lives Way Harder (HBO)",
+    "description": "The president of Russia and the president of the United States holding a press conference is not unusual. Presidents George H.W. Bush, Bill Clinton and Barack ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/VKmhAlrIAoE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/VKmhAlrIAoE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/VKmhAlrIAoE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "VICE News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/0HIOrWpY9ojrEs6S9-Ru0zl1f0c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "hrM-NH80-w0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T14:33:57.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "President Donald Trump Criticizes NBC News Report And Reporter Reacts | Morning Joe | MSNBC",
+    "description": "While delivering a speech at the 199th national convention for the Veterans of Foreign Wars, President Trump criticized an NBC News report from Vaughn ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hrM-NH80-w0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hrM-NH80-w0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hrM-NH80-w0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/4qVUMGzxJZXpX-7eCYFpA_jY5_c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "K_jqKtnW2Ec"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T18:35:17.000Z",
+    "channelId": "UCLXo7UDZvByw2ixzpQCufnA",
+    "title": "Trump and Putin: A surreal moment in US politics",
+    "description": "The problem is no one's prepared to do something with the information we already have. Subscribe to our channel! http://goo.gl/0bsAjO We don't know ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/K_jqKtnW2Ec/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/K_jqKtnW2Ec/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/K_jqKtnW2Ec/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Vox",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/nofo7rkf-ExD8YlNfBPARANJpQ4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "GWgT9X9CrP8"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T10:18:27.000Z",
+    "channelId": "UCsv4YOF2RBYh0NQ1vuHQ-hg",
+    "title": "The Many Affairs Of Donald Trump | The Daily Show With Trevor Noah",
+    "description": "A recorded conversation between attorney Michael Cohen and Donald Trump raises questions about the president's alleged attempt to cover up an affair via a ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GWgT9X9CrP8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GWgT9X9CrP8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GWgT9X9CrP8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Comedy Central UK",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/lvvrMrJXGZaJkotapbZLOlu_1N4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "MtAB2OsHQx4"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T16:17:06.000Z",
+    "channelId": "UCZMsvbAhhRblVGXmEXW8TSA",
+    "title": "ERGEBNISSE VON HELSINKI: Pressekonferenz von Trump und Putin",
+    "description": "Die Präsidenten der USA und Russlands, Donald Trump und Wladimir Putin, haben ihr Vieraugen-Gespräch bei dem Gipfel in Helsinki beendet. Es habe zwei ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/MtAB2OsHQx4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/MtAB2OsHQx4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/MtAB2OsHQx4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "WELT",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/3-9VZW7O6-iaPji3j4VzsZ8X4FI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "S2YR7jZjh9w"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T00:49:01.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Cooper: Today on Russia, a whole new Trump",
+    "description": "CNN's Anderson Cooper wonders what changed since President Donald Trump's summit with Russian President Vladimir Putin to make him suddenly believe ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/S2YR7jZjh9w/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/S2YR7jZjh9w/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/S2YR7jZjh9w/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/RiVPdouW8Kt2YUdcL3CMWqGgPQM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "-G8XO7jONt8"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T03:31:59.000Z",
+    "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+    "title": "Trump-Cohen secret audio tape just made public",
+    "description": "ABC News has obtained the secret recording between Donald Trump and his attorney Michael Cohen.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/-G8XO7jONt8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/-G8XO7jONt8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/-G8XO7jONt8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "ABC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/J3WXgeX-auYcMDZrvs--x0AZsoY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "6lMcOWLuArQ"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-18T01:22:26.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump voters react to President's summit with Putin",
+    "description": "CNN's Kyung Lah speaks with residents in Kenosha County, Wisconsin, where Trump won in 2016 by a slim margin of 255 votes, to see what his supporters ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/6lMcOWLuArQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/6lMcOWLuArQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/6lMcOWLuArQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/XQmJV_HSaKt-8mJxv0XXYY5R614\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rHLRI5GYl6M"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T00:27:20.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Anderson Cooper calls out Trump campaign: Another big lie",
+    "description": "CNN's Anderson Cooper breaks down Michael Cohen's secret recordings of a conversation with President Trump discussing a possible payment regarding a ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rHLRI5GYl6M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rHLRI5GYl6M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rHLRI5GYl6M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/dd0a6R5qAubN98Hj0s1V_7kpTRA\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "jbgmHmrsI6c"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-20T01:29:46.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Ex-CIA chief on Trump-Putin summit: I feel sick",
+    "description": "Retired CIA Chief of Russia Operations Steve Hall discusses the meeting between President Trump and Vladimir Putin.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/jbgmHmrsI6c/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/jbgmHmrsI6c/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/jbgmHmrsI6c/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/5Aygh_xi7zqkZdrhE63P8YFweLQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "AEU57XM1gIc"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-20T03:45:17.000Z",
+    "channelId": "UC8-Th83bH_thdKZDJCrn88g",
+    "title": "Trump News Network: Putin Summit",
+    "description": "To combat the fake news media, Trump creates his very own news network to discuss his controversial summit with Vladimir Putin. Subscribe NOW to The ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/AEU57XM1gIc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/AEU57XM1gIc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/AEU57XM1gIc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "The Tonight Show Starring Jimmy Fallon",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/VeWzj7HBvKWKgpxuEK_39iTy_c8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "lo3iqJGUnn0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-23T16:07:08.000Z",
+    "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+    "title": "Trump’s approval rating rises after Putin summit",
+    "description": "Fox News national security analyst Walid Phares on Iranian President Rohani's threats against President Trump and the fallout from Trump's summit with ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lo3iqJGUnn0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lo3iqJGUnn0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lo3iqJGUnn0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox Business",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/dvx5af4KUpzxYVhNIgvc7UGoxRE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "G7W11PXJRsI"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T05:18:49.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Lordy, We've Got The Tape. Donald Trump-Michael Cohen Recording Is Released. | The 11th Hour | MSNBC",
+    "description": "Michael Cohen's lawyer released audio of a secret recording from 2016 of Cohen and then-candidate Trump seemingly discussing payment to fmr. Playboy ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/G7W11PXJRsI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/G7W11PXJRsI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/G7W11PXJRsI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/x7WYjv7bX30zwZ6ET8cki5SCdio\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "s1TefD8LbQU"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-28T01:03:28.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Avenatti Reveals Another Client’s Case Involves Donald Trump, AMI | The Beat With Ari Melber | MSNBC",
+    "description": "Michael Avenatti discusses his new revelation that he has three additional clients who allege relationships with Donald Trump and who were allegedly paid ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/s1TefD8LbQU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/s1TefD8LbQU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/s1TefD8LbQU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/fI_aX1wqfVf_yAzS0NcuW3j__Qw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "sRBsJNdK1t0"
+   },
+   "snippet": {
+    "publishedAt": "2017-01-20T17:28:25.000Z",
+    "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+    "title": "Trump Inauguration Speech (FULL) | ABC News",
+    "description": "President Trump Inauguration Address | The 45th president of the United States speaks outside the Capitol building on Inauguration Day. During his inaugural ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/sRBsJNdK1t0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/sRBsJNdK1t0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/sRBsJNdK1t0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "ABC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/3CuNYeTaicnk2kxC9wVL0WHn--s\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "665yYAqBCKg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T13:36:39.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Michael Cohen Donald Trump Tape Offers Bevy Of New Leads For Investigators | Rachel Maddow | MSNBC",
+    "description": "Rachel Maddow shares the CNN broadcast of an audio tape of Donald Trump speaking with Michael Cohen ostensibly about paying a former Playboy Playmate ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/665yYAqBCKg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/665yYAqBCKg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/665yYAqBCKg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/p6vLuJQdL_944nnng0gPrs3VIUM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "vwGhnDRkRoA"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-24T07:30:00.000Z",
+    "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "title": "EXCLUSIVE Audio of Michael Cohen's Conversation with Donald Trump",
+    "description": "We recently learned that Federal prosecutors have 12 conversations secretly recorded by former Trump personal attorney Michael Cohen, at least one of which ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vwGhnDRkRoA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vwGhnDRkRoA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vwGhnDRkRoA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Jimmy Kimmel Live",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/AxSKh9bANm1-MsE_iFd5dStQ3kg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "vpP67Mb4nT0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-24T17:55:30.000Z",
+    "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+    "title": "President Donald Trump Speaks At VFW Convention In Kansas City | NBC News",
+    "description": "President Donald Trump delivers remarks at the Veterans of Foreign Wars National Convention in Kansas City, Missouri. » Subscribe to NBC News: ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vpP67Mb4nT0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vpP67Mb4nT0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vpP67Mb4nT0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "NBC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/e-_V24-J4aLJigtQph7bvEeqS3g\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "UvopPM-TBe8"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T11:26:02.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump meets one-on-one with Putin",
+    "description": "President Donald Trump and President Vladimir Putin hold a one-on-one meeting in Helsinki, Finland. FOX News Channel (FNC) is a 24-hour all-encompassing ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/UvopPM-TBe8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/UvopPM-TBe8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/UvopPM-TBe8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/M-2v06voOMnhtVy0bKR4UGjf3zI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "2YI7NbpPOjw"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-14T12:15:13.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump criticized for his stroll with Queen",
+    "description": "Royal commentator Richard Fitzwilliams says President Trump could have avoided several missteps while meeting Queen Elizabeth II by doing a rehearsal ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2YI7NbpPOjw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2YI7NbpPOjw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2YI7NbpPOjw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ktoH-dPsAf8Os2Kc4KKMfqUKM38\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "RKXTvWe7ig0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-18T19:12:03.000Z",
+    "channelId": "UCTrQ7HXWRRxr7OsOtodr2_w",
+    "title": "Donald Trump furiously defends meeting with Vladimir Putin but backtracks on comments",
+    "description": "Donald Trump has furiously defended his Helsinki meeting with Vladimir Putin, denouncing \"haters\" who he accused of \"Trump Derangement Syndrome\".",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RKXTvWe7ig0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RKXTvWe7ig0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RKXTvWe7ig0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Channel 4 News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/UC4PTQVGTHEsS0kGnvw1pPyR8Qo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "6bNizPE8nq0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T02:51:05.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Cuomo: Trump betrayed country as exercise in vanity",
+    "description": "CNN's Chris Cuomo reacts to President Donald Trump's comments during the summit with Russian President Vladimir Putin in Helsinki, Finland.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/6bNizPE8nq0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/6bNizPE8nq0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/6bNizPE8nq0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/40zXNcL0dDUHpotoPPxJlolPh10\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "2-Xw0_2eMJg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T18:08:34.000Z",
+    "channelId": "UCIRYBXDze5krPDzAEOxFGVA",
+    "title": "Key moments from the Trump-Putin press conference",
+    "description": "Donald Trump and Vladimir Putin answered questions in Helsinki on Monday. Trump refused to back US intelligence agencies on their findings on Russian ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2-Xw0_2eMJg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2-Xw0_2eMJg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2-Xw0_2eMJg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Guardian News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/zCGX2Sa6gIiU47zruGmSupOyxiY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "5LqVBkYZhYI"
+   },
+   "snippet": {
+    "publishedAt": "2018-06-12T01:30:49.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "President Trump, Kim Jong Un meet in Singapore",
+    "description": "President Donald Trump and North Korean leader Kim Jong Un meet for the first time ahead of their private talks in Singapore.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/5LqVBkYZhYI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/5LqVBkYZhYI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/5LqVBkYZhYI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/LpOJ3MafKy6IgPd8cQKsoky4oyY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "T84se4fc4KU"
+   },
+   "snippet": {
+    "publishedAt": "2017-02-14T01:50:30.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump's awkward handshakes with world leaders",
+    "description": "Check out President Donald Trump's weird handshakes. CNN's Jeanne Moos shows us the Presidential \"grab and yank.\"",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/T84se4fc4KU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/T84se4fc4KU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/T84se4fc4KU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/QfQraS_yLt3hoDnVQGhtb92Y67g\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "bjNjNaA9ww0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T02:47:24.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Giuliani responds to secret Trump-Cohen recording release",
+    "description": "President Trump's personal lawyer and former mayor of New York City says the meaning of the conversation between then-candidate Donald Trump and his ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bjNjNaA9ww0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bjNjNaA9ww0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bjNjNaA9ww0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/boSsQBcEnDf4WGaurrx4tzsLdDY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "XmA3gIq8g-Q"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T18:30:40.000Z",
+    "channelId": "UCeH6qE4V7n5tVwP7NkdrtJg",
+    "title": "What's On Secret Trump-Cohen Tape? | The View",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/XmA3gIq8g-Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/XmA3gIq8g-Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/XmA3gIq8g-Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "The View",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/HhxdhPKKqlUC5X3kjaHSFME0dzk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "h2rizTeeKHM"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-26T01:00:31.000Z",
+    "channelId": "UCVTyTA7-g9nopHeHbeuvpRA",
+    "title": "Michael Cohen Releases His Secret Trump Tape: A Closer Look",
+    "description": "Seth takes a closer look at President Trump's personal attorney, Michael Cohen, secretly recording a conversation he had with Trump during the campaign ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/h2rizTeeKHM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/h2rizTeeKHM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/h2rizTeeKHM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Late Night with Seth Meyers",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/BmF3GiqlGRFAt9mbkg4GH3eBtkE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "YT4Rgyicsw8"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-25T03:58:06.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "George Will On Donald Trump-Michael Cohen Tape: \"Mr. Trump Is A Seedy Man\" | The Last Word | MSNBC",
+    "description": "George F. Will reacts to the Trump-Cohen secret audio recording, comparing the tape to the recordings that brought down Richard Nixon. Will refers to Trump as ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YT4Rgyicsw8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YT4Rgyicsw8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YT4Rgyicsw8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/jJ8KtHnmycy2s9zowdPS6AV3drU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "xEMbnwk6v0Y"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T16:23:53.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Anderson Cooper: Disgraceful performance by Trump during Putin meeting",
+    "description": "After a joint news conference with President Trump and Russian President Vladimir Putin, CNN's Anderson Cooper called Trump's performance \"disgraceful.\"",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/xEMbnwk6v0Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/xEMbnwk6v0Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/xEMbnwk6v0Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/HRMAp4YxmGDLx_RODg2zRI3Hjkg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "9HPshG5IlcI"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-12T19:41:02.000Z",
+    "channelId": "UC16niRr50-MSBwiO3YDb3RA",
+    "title": "Trump arrives at Blenheim Palace - BBC News",
+    "description": "Theresa and Philip May stand alongside Donald and Melania Trump on the steps of the palace to listen to Liberty Fanfare, the National Emblem, and a special ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/9HPshG5IlcI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/9HPshG5IlcI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/9HPshG5IlcI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "BBC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/bw9knJdDGTtPF6erko3xji8OTSk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "CAM9gvH7gFE"
+   },
+   "snippet": {
+    "publishedAt": "2018-06-18T20:40:30.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump directs formation of a Space Force",
+    "description": "President Donald Trump directed the formation of a new military branch dedicated to fighting in outer space, called Space Force, that would be separate but ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CAM9gvH7gFE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CAM9gvH7gFE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CAM9gvH7gFE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/gjwwCYQse6JNsQ7BxeY3FSF7uzw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "urMsr55b25Y"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-27T01:15:35.000Z",
+    "channelId": "UCVTyTA7-g9nopHeHbeuvpRA",
+    "title": "Trump Avoids Reporters and Lies About His Tariffs: A Closer Look",
+    "description": "Seth takes a closer look at President Trump's mounting legal and political troubles, his escalating war on the press and his lies to supporters about his economic ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/urMsr55b25Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/urMsr55b25Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/urMsr55b25Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Late Night with Seth Meyers",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/uR78G_DAPbWKi9UliLXD7vQBCoI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "ZBHGIkVke5Y"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T19:16:50.000Z",
+    "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+    "title": "President Donald Trump's Remarks On Putin Summit During Congressional Meeting (Full) | NBC News",
+    "description": "President Trump holds a meeting with members of Congress, where he is expected to remark on his trip to Helsinki, where he met with Russian President Putin.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ZBHGIkVke5Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ZBHGIkVke5Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ZBHGIkVke5Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "NBC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/OE3OfOoK94u-I24eTNPtLCCxzuM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "CiqUb3W_pSI"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-23T18:52:44.000Z",
+    "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+    "title": "Iran Takes Center Stage After President Donald Trump’s Twitter Threat | Velshi & Ruhle | MSNBC",
+    "description": "In another late-night Twitter tirade, President Trump threatened Iran with consequences that “few throughout history have ever suffered before” in response to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CiqUb3W_pSI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CiqUb3W_pSI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CiqUb3W_pSI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MSNBC",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/eciH07YgXgfHruExQ77oCrhmyyw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "qQruDaf7bKs"
+   },
+   "snippet": {
+    "publishedAt": "2018-01-11T05:00:16.000Z",
+    "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "title": "Trump’s 2,000 Lies – A Documentary",
+    "description": "Donald Trump reached a major milestone according to the Washington Post by telling his two-thousandth lie since taking office. Telling two thousand lies is an ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/qQruDaf7bKs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/qQruDaf7bKs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/qQruDaf7bKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Jimmy Kimmel Live",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/h6wKLY4JDUbVBgw0liSyhTuERPk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "SsjrEu4Vrw0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T20:11:10.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump claims he misspoke about Russia, immediately contradicts himself",
+    "description": "President Donald Trump clarifies some of his remarks a day after many blasted what he said during the summit with Russian President Vladimir Putin in Helsinki, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/SsjrEu4Vrw0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/SsjrEu4Vrw0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/SsjrEu4Vrw0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/cVlDueCZ6kGo2sLyDVU1UDFDYnQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "MB8etvUSag0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-18T00:39:33.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump: I'm not pro-Russia, I just want our country safe",
+    "description": "Part 1 of Tucker's interview with President Trump in Helsinki - Trump discusses 'very bad people' former CIA director John Brennan, FBI lovebirds Peter Strzok ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/MB8etvUSag0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/MB8etvUSag0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/MB8etvUSag0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/V_tABDUaI9LMMWJXsrO7JkmgMHw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "SNmnPbzVKPY"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T04:12:46.000Z",
+    "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "title": "Jimmy Kimmel on Trump/Putin Summit",
+    "description": "Jimmy breaks down Trump's one-one-one meeting and press briefing with Russia's President Vladimir Putin and he talks about the Justice Department indicting ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/SNmnPbzVKPY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/SNmnPbzVKPY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/SNmnPbzVKPY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Jimmy Kimmel Live",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/9gfY704C5rgqk4z-8K7lTaVwWcU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "GLa9YxV1Xps"
+   },
+   "snippet": {
+    "publishedAt": "2014-12-16T08:00:05.000Z",
+    "channelId": "UCweazuUMMKdL2wwSyrxla9A",
+    "title": "Rae Sremmurd - Up Like Trump",
+    "description": "SremmLife” available Now! iTunes: http://smarturl.it/SremmLife Google Play: http://smarturl.it/SremmLifeGP Amazon: http://smarturl.it/SremmLifeAmz Exclusive ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GLa9YxV1Xps/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GLa9YxV1Xps/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GLa9YxV1Xps/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "RaeSremmurdVEVO",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/S3SDBZX6fhDYTFpr8vA0OLZdgxI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rFsD5P0FSOg"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-13T17:35:24.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Queen Elizabeth II welcomes Trump to Windsor Castle",
+    "description": "President Donald Trump and First Lady Melania Trump meet British monarch Queen Elizabeth II at Windsor Castle.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rFsD5P0FSOg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rFsD5P0FSOg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rFsD5P0FSOg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/DmjmiwdvS4Ex5kKPjA3VAhKu1B8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "bQYosxXNgK0"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T01:40:57.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump on Putin summit: We came to a lot of good conclusions",
+    "description": "On 'Hannity,' President Trump takes Americans inside his meeting with the Russian president. The president says he and Putin are getting very close on Syria ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bQYosxXNgK0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bQYosxXNgK0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bQYosxXNgK0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/r2s9srJHs3u6db2m1pM10Zu_3PI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "3HlYCyJ2znc"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T15:37:07.000Z",
+    "channelId": "UC16niRr50-MSBwiO3YDb3RA",
+    "title": "Trump-Putin press conference - BBC News",
+    "description": "Vladimir Putin spoke first, and said he had made firm proposals on arms control. “As nuclear powers, we bear special responsibility” for international security, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/3HlYCyJ2znc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/3HlYCyJ2znc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/3HlYCyJ2znc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "BBC News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/yA4O2DWM0yVEa2mi_xknbr4z-7U\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "-Ha-v4cMKP4"
+   },
+   "snippet": {
+    "publishedAt": "2018-06-12T06:43:17.000Z",
+    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+    "title": "Trump shows Kim Jong Un presidential limousine",
+    "description": "President Donald Trump gave North Korean leader Kim Jong Un a viewing of the presidential limousine during their talks in Singapore.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/-Ha-v4cMKP4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/-Ha-v4cMKP4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/-Ha-v4cMKP4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CNN",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/9eQMw2rUFmcBRDrlAc3-sOkIaG0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rdYLVo-oazc"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-16T16:06:11.000Z",
+    "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+    "title": "Trump, Putin hold joint press conference",
+    "description": "President Donald Trump and President Vladimir Putin hold joint press conference following meeting. FOX News Channel (FNC) is a 24-hour all-encompassing ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rdYLVo-oazc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rdYLVo-oazc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rdYLVo-oazc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Fox News",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/gMa2b-n4lfcFalJ1ECpA4CAzYxk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rWj1wC2YW0A"
+   },
+   "snippet": {
+    "publishedAt": "2018-07-17T07:57:53.000Z",
+    "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+    "title": "Breaking down the Helsinki summit: What happened when Trump and Putin met",
+    "description": "During a press conference, Trump said he didn't \"see any reason\" why Russia would have interfered in the 2016 U.S. elections.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rWj1wC2YW0A/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rWj1wC2YW0A/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rWj1wC2YW0A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "ABC News",
+    "liveBroadcastContent": "none"
+   }
+  }
+ ]
+}
