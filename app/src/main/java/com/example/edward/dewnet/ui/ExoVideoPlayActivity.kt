@@ -192,7 +192,10 @@ class ExoVideoPlayActivity : AppCompatActivity() {
 
         queryViewModel.videoList.observe(this,
                 Observer<PagedList<VideoModel>> { videoList ->
-                    thirdAdapter.submitList(videoList) })
+                    if (videoList != null && videoList.isNotEmpty()) {
+                        thirdAdapter.submitList(videoList)
+                    }
+                })
 
         queryViewModel.networkState.observe(this,
                 Observer<NetworkState?> { networkState ->
@@ -341,7 +344,11 @@ class ExoVideoPlayActivity : AppCompatActivity() {
     }
 
     private val videoListObserver =
-            Observer<PagedList<VideoModel>> { videoList -> adapter.submitList(videoList) }
+            Observer<PagedList<VideoModel>> { videoList ->
+                if (videoList != null && videoList.isNotEmpty()){
+                    adapter.submitList(videoList)
+                }
+            }
 
     private val networkStateObserver =
             Observer<NetworkState?> { networkState -> adapter.setNetworkState(networkState) }
