@@ -23,4 +23,4 @@ Technology Points:
 12. Multidex
 
 ## **Demo**
-![bottom-drawer](https://www.youtube.com/watch?v=T0GA10wVrLM&feature=youtu.be)
+![bottom-drawer](https://github.com/ed828a/DewNet/tree/slidinguppanel/app/src/main/res/raw/DewNet.gif)
