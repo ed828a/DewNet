@@ -15,8 +15,9 @@
         android:paddingTop="4dp">
 
         <ImageButton
-            android:id="@id/exo_prev"
+            android:id="@id/my_exo_prev"
             android:tint="#FFBEBEBE"
+            android:onClick="playPreviousVideo"
             style="@style/ExoMediaButton.Previous" />
 
         <ImageButton

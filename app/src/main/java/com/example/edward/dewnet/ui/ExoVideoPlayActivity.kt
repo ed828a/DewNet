@@ -12,6 +12,7 @@ import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.SearchView
 import android.util.Log
 import android.view.View
@@ -363,8 +364,18 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                             queryViewModel.showRelatedToVideoId(backList.query)) ||
                     (backList.type == Type.QUERY_STRING &&
                             queryViewModel.showSearchQuery(backList.query))) {
-                recyclerRelatedListView.scrollToPosition(0)
-                (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
+
+                when{
+                    findViewById<View>(R.id.recyclerRelatedListView) != null -> {
+                        recyclerRelatedListView.scrollToPosition(0)
+                        (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
+                    }
+
+                    findViewById<RecyclerView>(R.id.thirdList) != null -> {
+                        thirdList.scrollToPosition(0)
+                        (thirdList.adapter as? ThirdListAdapter)?.submitList(null)
+                    }
+                }
             }
         }
     }
