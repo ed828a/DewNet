@@ -17,7 +17,7 @@ Technology Points:
 6. Dagger2;
 7. RxJava2;
 8. Youtube DATA API;
-9. Youtube Android Player API;
+9. ExoPlayer API;
 10. JSON 
 11. Kotlin
 12. Multidex
