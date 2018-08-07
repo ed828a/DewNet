@@ -165,6 +165,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         queryViewModel.networkState.observe(this, networkStateObserver)
     }
 
+    @Suppress("PLUGIN_WARNING")
     private fun initThirdList() {
         thirdList.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         val thirdAdapter = ThirdListAdapter(
@@ -196,7 +197,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
 
         queryViewModel.networkState.observe(this,
                 Observer<NetworkState?> { networkState ->
-                    thirdAdapter.setNetworkState(networkState) })
+                    thirdAdapter.setNetworkState(networkState)
+                })
     }
 
 
@@ -220,7 +222,8 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                 }
 
                 buttonSearch.onActionViewCollapsed()
-                buttonDownload.visibility = View.VISIBLE
+                //comment off for release
+//                buttonDownload.visibility = View.VISIBLE
                 textVideoPlayTitle.visibility = View.VISIBLE
 
                 return false
@@ -339,7 +342,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
 
     private val videoListObserver =
             Observer<PagedList<VideoModel>> { videoList ->
-                if (videoList != null && videoList.isNotEmpty()){
+                if (videoList != null && videoList.isNotEmpty()) {
                     recyclerRelatedListView.scrollToPosition(0)
                     adapter.submitList(null)
                     adapter.submitList(videoList)
@@ -357,6 +360,7 @@ class ExoVideoPlayActivity : AppCompatActivity() {
         }
     }
 
+    @Suppress("PLUGIN_WARNING")
     override fun onBackPressed() {
 
         val backList = queryViewModel.backListStack.pop()
@@ -368,15 +372,17 @@ class ExoVideoPlayActivity : AppCompatActivity() {
                     (backList.type == Type.QUERY_STRING &&
                             queryViewModel.showSearchQuery(backList.query))) {
 
-                when{
+                when {
                     findViewById<View>(R.id.recyclerRelatedListView) != null -> {
                         recyclerRelatedListView.scrollToPosition(0)
                         (recyclerRelatedListView.adapter as? SecondListAdapter)?.submitList(null)
                     }
 
                     findViewById<RecyclerView>(R.id.thirdList) != null -> {
+                        // because Compiler complains thirdList about NullPointerException
                         thirdList.scrollToPosition(0)
                         (thirdList.adapter as? ThirdListAdapter)?.submitList(null)
+
                     }
                 }
             }

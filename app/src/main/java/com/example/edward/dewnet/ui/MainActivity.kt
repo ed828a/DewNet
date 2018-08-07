@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            mainListView.layoutManager = GridLayoutManager(this, 2) as RecyclerView.LayoutManager?
+            mainListView.layoutManager = GridLayoutManager(this, 2)
         } else {
             mainListView.layoutManager = LinearLayoutManager(this)
         }
@@ -156,7 +156,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initSearchView(searchView: SearchView) {
         searchView.layoutDirection = View.LAYOUT_DIRECTION_RTL
-        searchView.layoutParams = ActionBar.LayoutParams(Gravity.END) as ViewGroup.LayoutParams?
+        searchView.layoutParams = ActionBar.LayoutParams(Gravity.END)
         searchView.queryHint = "Search Movie ..."
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {

@@ -15,6 +15,7 @@ package com.example.edward.dewnet.util;
  * limitations under the License.
  */
 
+        import android.arch.paging.DataSource;
         import android.support.annotation.AnyThread;
         import android.support.annotation.GuardedBy;
         import android.support.annotation.NonNull;
@@ -113,6 +114,7 @@ public class PagingRequestHelper {
                     new RequestQueue(RequestType.AFTER)};
     @NonNull
     final CopyOnWriteArrayList<Listener> mListeners = new CopyOnWriteArrayList<>();
+
     /**
      * Creates a new PagingRequestHelper with the given {@link Executor} which is used to run
      * retry actions.

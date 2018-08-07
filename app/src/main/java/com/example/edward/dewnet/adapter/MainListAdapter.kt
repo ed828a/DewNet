@@ -35,7 +35,7 @@ class MainListAdapter(
                     MainListViewHolder(view)
                 }
                 R.layout.cell_network_state -> NetworkStateItemViewHolder.create(parent, retryCallback)
-                else -> throw IllegalArgumentException("unknown view type $viewType") as Throwable
+                else -> throw IllegalArgumentException("unknown view type $viewType")
             }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {

@@ -2,6 +2,7 @@ package com.example.edward.dewnet.util
 
 import android.util.Log
 
+@Suppress("UNCHECKED_CAST")
 /**
  * Created by Edward on 7/7/2018.
  */
@@ -10,7 +11,7 @@ class DewStack<T>(val size: Int) {
     private var counter = -1
     private var cursor = 0
     private var previousPosition = 0
-    private val box = Array<Any>(size) { 0 }
+    private val box = Array<Any>(size) {0}
 
     fun push(item: T) {
         previousPosition = cursor
